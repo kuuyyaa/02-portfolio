@@ -1,6 +1,6 @@
 # Description
 
-Portofolio template to show future employers on previous projects.
+Portfolio template to show future employers on previous projects.
 
 This website was built following these criteria:
 1) When the page is loaded the page presents your name, a recent photo or avatar, and links to sections about you, your work, and how to contact you
