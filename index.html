@@ -1,45 +1,112 @@
 <!DOCTYPE html>
 <html lang="en-gb">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="./assets/style.css">
+  <!-- Add your font link here -->
 </head>
 
+
+<!-- header -->
 <body>
-  <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
+    <div class="logo-title">
+      <img src="./assets/images/final-logo.jpg" alt="Animated Logo" id="header-logo">
+    </div>
     <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact">Contact Me</a></li>
+        <!-- <li><a href="">Resume</a></li> -->
+      </ul>
     </nav>
   </header>
 
   <!-- hero banner -->
   <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
-    </div>
+    <h2>Project Portfolio</h2>
   </section>
 
   <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
-    </section>
+    
+  <!-- about me -->
+  <section class="page-section about-me" id="about">
+    <div class="grid-container">
+      <div class="about-me-header">
+        <h2>About Me</h2>
+      </div>
+      <div class="about-me-content">
+        <img class="headshot" src="./assets/images/custom_headshot.png" alt="Headshot">
+        <h3>Munir Al Hooti</h3>
+        <p>Currently fulfilling my Masters in Biomedical Engineering at King's College London.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
-    </section>
+  
+ 
 
-    <!-- contact -->
+  <section class="page-section work" id="work">
+    <div class="work grid">
+      <div class="work-images">
+        <div class="work-header">
+          <h2>Previous Work</h2>
+        </div>
+        <div class="work-content">
+          <div class="work-item project-1">
+            <a href="#">
+              <img src="./assets/images/02-portfolio-1.jpg" alt="App 2">
+              <p>App 2 Description</p>
+            </a>
+          </div>
+          <div class="work-item project-2">
+            <a href="#">
+              <img src="./assets/images/02-portfolio-2.jpg" alt="App 2">
+              <p>App 2 Description</p>
+            </a>
+          </div>
+          <div class="work-item project-3">
+            <a href="#">
+              <img src="./assets/images/02-portfolio-3.jpg" alt="App 2">
+              <p>App 2 Description</p>
+            </a>
+          </div>
+          <div class="work-item project-4">
+            <a href="#">
+              <img src="./assets/images/02-portfolio-4.jpg" alt="App 2">
+              <p>App 2 Description</p>
+            </a>
+          </div>
+          <div class="work-item project-5">
+            <a href="#">
+              <img src="./assets/images/02-run-buddy.jpg" alt="App 2">
+              <p>App 2 Description</p>
+            </a>
+          </div>
+        </div>
+
+      </div>
+      
+    </div>
+    
+  </section>
+  
+
+  <!-- contact -->
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
+      <div class="contact-info">
+        <p>Email: your@email.com</p>
+        <p>Phone: +123 456 789</p>
+      </div>
     </section>
   </main>
-</body>
 
+  <footer>
+    <!-- Footer content here -->
+  </footer>
+</body>
 </html>
