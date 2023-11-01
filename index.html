@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Web Developer Portfolio</title>
   <link rel="stylesheet" href="./assets/style.css">
-  <!-- Add your font link here -->
+  <!-- future font link -->
 </head>
 
 
@@ -20,7 +20,7 @@
         <li><a href="#about">About Me</a></li>
         <li><a href="#work">Work</a></li>
         <li><a href="#contact">Contact Me</a></li>
-        <!-- <li><a href="">Resume</a></li> -->
+        <li><a href="">Resume</a></li> 
       </ul>
     </nav>
   </header>
@@ -35,13 +35,14 @@
   <!-- about me -->
   <section class="page-section about-me" id="about">
     <div class="grid-container">
-      <div class="about-me-header">
+      <div class="section-header">
         <h2>About Me</h2>
+        <div class="vl"></div>
       </div>
-      <div class="about-me-content">
+      <div class="section-content about-me">
         <img class="headshot" src="./assets/images/custom_headshot.png" alt="Headshot">
         <h3>Munir Al Hooti</h3>
-        <p>Currently fulfilling my Masters in Biomedical Engineering at King's College London.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet eveniet dicta atque numquam corporis voluptatem? Animi dolorum illo modi, nulla ea quis accusamus ipsam totam inventore facere. Rem quibusdam consectetur vel natus ex iure impedit quia vitae optio minima iste dolorum, fuga autem, voluptatibus atque maxime hic quos amet illum similique velit cumque! Assumenda voluptatum eligendi ad eos. Laboriosam exercitationem pariatur vitae soluta nihil repudiandae maxime doloremque commodi aspernatur sint quidem repellendus tempore rerum delectus voluptatum molestias magnam, recusandae molestiae quasi. Consequuntur, numquam deserunt perspiciatis ab iste labore veniam repellendus molestiae error quaerat. Aut maiores soluta aspernatur fuga et temporibus.</p>
       </div>
     </div>
   </section>
@@ -50,63 +51,62 @@
  
 
   <section class="page-section work" id="work">
-    <div class="work grid">
       <div class="work-images">
-        <div class="work-header">
+        <div class="section-header">
           <h2>Previous Work</h2>
+          <div class="vl work-line"></div>
         </div>
-        <div class="work-content">
-          <div class="work-item project-1">
-            <a href="#">
-              <img src="./assets/images/02-portfolio-1.jpg" alt="App 2">
-              <p>App 2 Description</p>
-            </a>
-          </div>
-          <div class="work-item project-2">
-            <a href="#">
-              <img src="./assets/images/02-portfolio-2.jpg" alt="App 2">
-              <p>App 2 Description</p>
-            </a>
-          </div>
-          <div class="work-item project-3">
-            <a href="#">
-              <img src="./assets/images/02-portfolio-3.jpg" alt="App 2">
-              <p>App 2 Description</p>
-            </a>
-          </div>
-          <div class="work-item project-4">
-            <a href="#">
-              <img src="./assets/images/02-portfolio-4.jpg" alt="App 2">
-              <p>App 2 Description</p>
-            </a>
-          </div>
-          <div class="work-item project-5">
-            <a href="#">
-              <img src="./assets/images/02-run-buddy.jpg" alt="App 2">
-              <p>App 2 Description</p>
-            </a>
-          </div>
+        <div class="section-content portfolio">
+          <a href="https://kuuyyaa.github.io/01-search-engine-optimisation/" class="project-card app-1">
+            <img src="/assets/images/02-portfolio-1.jpg" alt="Thumbnail">
+            <div class="project-description">Search Engine Optimisation</div>
+          </a>
+          <a href="project_2_link" class="project-card app-2">
+            <img src="/assets/images/02-portfolio-2.jpg" alt="Placeholder image of App 2">
+            <div class="project-description">Project 2 to be deployed</div>
+          </a>
+          <a href="project_2_link" class="project-card app-3">
+            <img src="/assets/images/02-portfolio-3.jpg" alt="Placeholder image of App 3">
+            <div class="project-description">Project 3 to be deployed</div>
+          </a>
+          <a href="project_2_link" class="project-card app-4">
+            <img src="/assets/images/02-portfolio-4.jpg" alt="Placeholder image of App 4">
+            <div class="project-description">Project 4 to be deployed</div>
+          </a>
+          <a href="project_2_link" class="project-card app-5">
+            <img src="/assets/images/02-run-buddy.jpg" alt="Placeholder image of App 5">
+            <div class="project-description">Project 5 to be deployed</div>
+          </a>
         </div>
-
       </div>
-      
-    </div>
-    
   </section>
-  
-
-  <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
-      <div class="contact-info">
-        <p>Email: your@email.com</p>
-        <p>Phone: +123 456 789</p>
-      </div>
-    </section>
   </main>
 
   <footer>
-    <!-- Footer content here -->
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <div class="grid-contact">
+        <div class="section-header">
+          <h2>Contact Me</h2>
+          <div class="vl contact"></div>
+        </div>
+        <div class="section-content contact-me">
+          <a href="https://www.instagram.com/ku_yya/" class="contact-icon insta">
+            Instagram
+          </a>
+          <a href="mailto:email@gmail.com" class="contact-icon">
+            Email
+          </a>
+          <a href="te:+12345" class="contact-icon">
+            Phone
+          </a>
+
+        </div>
+        
+      </div>
+    </section>
+      
+    
   </footer>
 </body>
 </html>
