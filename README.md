@@ -19,3 +19,6 @@ For any future use: files can be managed and edited through any IDE (VSCode reco
 Deployed portfolio can be accessed through this [link](https://kuuyyaa.github.io/02-portfolio/).
 This website has been optimized to work on mobile devices:
 ![screenshot of mobile view](./assets/images/mobile-screenshot.png)
+
+* All artwork used is made by me (@ku_yya on instagram). 
+Please do not use without permission. 
