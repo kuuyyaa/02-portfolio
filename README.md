@@ -10,9 +10,6 @@ This website was built following these criteria:
 5) When images of the applications are clicked then the user is taken to that deployed application
 6) When the page is resized or viewed on various screens and devices then the layout is responsive and adapts to my viewport
 
-This website has been optimised to work on mobile devices:
-
-
 # Installation
 
 For any future use: files can be managed and edited through any IDE (VSCode recommended) and changes can be checked on a browser locally.
@@ -20,3 +17,5 @@ For any future use: files can be managed and edited through any IDE (VSCode reco
 # Usage
 
 Deployed portfolio can be accessed through this [link](https://kuuyyaa.github.io/02-portfolio/).
+This website has been optimized to work on mobile devices:
+![screenshot of mobile view](./assets/images/mobile-screenshot.png)
