@@ -17,6 +17,10 @@ For any future use: files can be managed and edited through any IDE (VSCode reco
 # Usage
 
 Deployed portfolio can be accessed through this [link](https://kuuyyaa.github.io/02-portfolio/).
+
+As of latest update, only one project application (SEO) is deployed. More will be added in the near future.
+'Resume' in the navigation bar is non-responsive, but will be linked to a completed resume in a following update.
+
 This website has been optimized to work on mobile devices:
 ![screenshot of mobile view](./assets/images/mobile-screenshot.png)
 
